@@ -1,4 +1,6 @@
--- FINAL PROJECT - Jonathan Sanchez Cabreja
+-- DATABASE CREATION PROJECT - Jonathan Sanchez Cabreja
+
+Skills used: VIEWS, JOINS, STRING FUNCTIONS
 
 --********************************* VIEW CREATION TO STORE DATA FOR VISUALIZATION *************************************
 
