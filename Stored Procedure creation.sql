@@ -1,4 +1,6 @@
--- PROYECTO FINAL - Jonathan Sanchez Cabreja
+-- DATABASE CREATION PROJECT - Jonathan Sanchez Cabreja
+
+Skills used: STORED PROCEDURES, VARIABLES, BEGIN TRAN, TRY/CATCH, INSERT INTO, SCOPE_IDENTITY
 
 --********************************* Stored Procedures creation *************************************
 
@@ -46,7 +48,8 @@ PRINT 'An error has occurred!'
 
 END CATCH
 
-EXEC sp_NewSaleRegistration @SalesPersonID_Sales = 4, @ModelID_Sales = 5, @NewClientID = 118,  @ProductTypeID_Sales = 1 , @Quantity_Sales = 6, @UnitPrice_Sales = 1000 , @StoreID_Sales = 1 , @EmpCashier_Sales = 11 
+EXEC sp_NewSaleRegistration @SalesPersonID_Sales = 4, @ModelID_Sales = 5, @NewClientID = 118,  @ProductTypeID_Sales = 1 , @Quantity_Sales = 6, @UnitPrice_Sales = 1000 , 
+@StoreID_Sales = 1 , @EmpCashier_Sales = 11 
 
 
 
@@ -110,7 +113,8 @@ PRINT 'An error has occurred!'
 
 END CATCH
 
-EXEC sp_NewEmployee @EmpID = 195, @Name = 'JuanPerez', @LastName = 'Lovely', @Position = 'SalesPerson', @PhoneNumber_ID = 1, @Email = 'JuanPerez@correo.com', @Address = 'Calle 52 no.5', @City = 'Santiago', @MaritalStatus = 'Single', @DOB = '04/04/2000', @Genre = 'Male', @PhoneNumber = '1-809-123-1111'
+EXEC sp_NewEmployee @EmpID = 195, @Name = 'JuanPerez', @LastName = 'Lovely', @Position = 'SalesPerson', @PhoneNumber_ID = 1, @Email = 'JuanPerez@correo.com', 
+@Address = 'Calle 52 no.5', @City = 'Santiago', @MaritalStatus = 'Single', @DOB = '04/04/2000', @Genre = 'Male', @PhoneNumber = '1-809-123-1111'
 
 --Set identity_insert Employees_tbl on
 
