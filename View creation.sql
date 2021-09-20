@@ -5,7 +5,7 @@ Skills used: VIEWS, JOINS, STRING FUNCTIONS
 --********************************* VIEW CREATION TO STORE DATA FOR VISUALIZATION *************************************
 
 
---1.	List orders with details
+--1. LIST ORDERS WITH DETAILS
 
 USE Printers_JS
 
@@ -62,6 +62,7 @@ SELECT * FROM Clients_V
 
 
 --3. EMPLOYEES INFO
+
 -- In this view I have added the column [Tenure - Months] using the column Hire_Date and the DATEDIFF function
 
 CREATE VIEW EmployeesInfo_V
@@ -91,7 +92,7 @@ SELECT * FROM EmployeesInfo_V
 
 
 
---4.	CLIENTS WITH MORE ORDERS
+--4. CLIENTS WITH MORE ORDERS
 
 CREATE VIEW ClientsOrders_V
 AS
