@@ -1,4 +1,6 @@
-﻿-- FINAL PROJECT - Jonathan Sanchez Cabreja
+﻿-- DATABASE CREATION PROJECT - Jonathan Sanchez Cabreja
+ 
+ Skills used: CREATE DATABASE, CREATE TABLE, INSERT INTO, ALTER TABLE, UPDATE
 
 
 --************************* Database creation, tables, and relationships ************************************
